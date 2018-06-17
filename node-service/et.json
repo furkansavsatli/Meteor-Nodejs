@@ -1,0 +1,32 @@
+[
+  {
+    "isim": "levrek Çorbasi",
+    "tur": "Beyaz Et",
+    "fiyat": 20
+  },
+  {
+    "isim": "Yahni",
+    "tur": "Kirmizi Et",
+    "fiyat": 20
+  }, {
+    "isim": "Tandir",
+    "tur": "Kirmizi Et",
+    "fiyat": 90
+  }, {	
+    "isim": "Izgara Çipura",
+    "tur": "Beyaz Et",
+    "fiyat": 30
+  }, {
+    "isim": "Kaburga Dolmasi",
+    "tur": "Kirmizi Et",
+    "fiyat": 250
+  }, {
+    "isim": "Antikrot",
+    "tur": "Kirmizi Et",
+    "fiyat": 120
+  }, {
+    "isim": "Bonfile",
+    "tur": "Kirmizi Et",
+    "fiyat": 140
+  }
+]
