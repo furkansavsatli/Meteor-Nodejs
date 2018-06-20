@@ -5,19 +5,6 @@ Template.urunListe.helpers({
   }
 });
 
-Template.urun.events({
-  'click #duzenle' (event) {
-    const urun = this; //secilen urun
-    Session.set('islem', 'Ürün Düzenle') // islem duzenle
-    Session.set('seciliUrun', urun) // secili urunu Session a kaydet
-  },
-  'click #sil'(event){
-       const urun = this;
-       Urun.remove(urun._id)
-    }
-})
-
-
 Template.urunDuzenle.helpers({
   islem() {
     return Session.get('islem') || "Ürün Ekle"
@@ -32,6 +19,22 @@ Template.urunDuzenle.helpers({
   }
 
 })
+
+
+Template.urun.events({
+  'click #duzenle' (event) {
+    const urun = this; //secilen urun
+    Session.set('islem', 'Ürün Düzenle') // islem duzenle
+    Session.set('seciliUrun', urun) // secili urunu Session a kaydet
+  },
+  'click #sil'(event){
+       const urun = this;
+       Urun.remove(urun._id)
+    }
+})
+
+
+
 
 Template.urunDuzenle.events({
   'submit #duzenleForm' (event) {
